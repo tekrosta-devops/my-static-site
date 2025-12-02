@@ -1,8 +1,10 @@
 version: 0.0
 os: linux
+
 files:
-  - source: /
-    destination: /var/www/html
+  - source: .
+    destination: /usr/share/nginx/html
+
 hooks:
   AfterInstall:
     - location: restart.sh
