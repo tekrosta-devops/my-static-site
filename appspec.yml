@@ -3,7 +3,8 @@ os: linux
 
 files:
   - source: /
-    destination: /usr/share/nginx/html/
+    destination: /var/www/html
+
 
 hooks:
   AfterInstall:
